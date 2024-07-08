@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
+    <style>
+      a:hover{
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #F3F3F3;">
+    <div class="top_container" style="width:100%; height:100px; background-color:black;" >
+      <p class=" h1" style="font-family: 'Cinzel', serif;  color: white; position: relative; top: 23px; left: 75px; height: 18px; width: 500px;">Clean Up Crew</p>
+    </div>
+    <h2 style="font-family: 'Advent Pro', sans-serif; margin-top: 45px; margin-left: 500px; font-size: 45px; height: 38px;">Hi,<%= doc.name %>.Welcome to Clean Up Crew.</h2>
+    <h2 style="font-family: 'Advent Pro', sans-serif; margin-top: 48px; margin-left: 570px; font-size: 45px; height: 38px;">Here's Your Details </h2>
+    <!-- <img src="./userpic.jpg" alt="User Pic should be here" style="display: inline-block;"> -->
+    <div class="container border border-secondary shadow" style="margin-top: 50px; width: 470px; display: inline-block;position: relative; left: 530px;">
+      <pre class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Reg No : <%= doc.regno %></pre>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Name              : <%= doc.name %></h1>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Room              : <%= doc.roomno %></h1>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Room Type         : <%= doc.room_type %></h1>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Floor             : <%= doc.floor %> </h1>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Hostel            : <%= doc.hostel_name %> </h1>
+    <h1 class="h4" style="font-family: 'Barlow Condensed', sans-serif;font-size:38px;">Booked Cleaning Date: <%= doc.ndate %> </h1>
+    </div>
+    <a href="http://localhost:8000/static/CleaningBooking.html" style="text-decoration: underline; position: absolute; top:750px; bottom: 100px; left: 620px; color: black; font-size: 20px;">Booking For Next Reservation</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
