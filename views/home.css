@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+
+.h4
+{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:38px;
+}
+
+.top_container
+{
+    width:500px; 
+    height:100px; 
+    background-color:black;
+    
+}
+#title
+{
+    display: inline-block;
+    font-family: 'Cinzel', serif;  
+    color: white;
+    position: relative; 
+    top: 23px;
+    left: 75px;
+    height: 18px; 
+    width: 500px;
+    
+}
+
+
+.bookingLink
+{
+    text-decoration: underline; 
+    position: absolute; 
+    top:500px; 
+    bottom: 50px; 
+    left: 320px; 
+    color: black; 
+    font-size: 20px;
+}
+
+
+a:hover{
+    font-size: 25px;
+  }
+
+.greet
+{
+    font-family: 'Advent Pro', sans-serif; 
+    margin-top: 45px;
+     margin-left: 500px; 
+     font-size: 45px;
+      height: 38px;
+}
+
+.greet1
+{
+    font-family: 'Advent Pro', sans-serif; 
+    margin-top: 48px; 
+    margin-left: 570px; 
+    font-size: 45px; 
+    height: 38px;
+}
